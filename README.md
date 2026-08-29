@@ -15,8 +15,7 @@ A modern, fast, and safe Windows system utility written in Python using Tkinter.
 
 ## 🛠️ Requirements & Dependencies
 
-This tool is built entirely using **Python Standard Libraries**. 
-No external packages are required to run the script!
+This tool is built entirely using **Python Standard Libraries**. No external packages are required to run the script!
 
 * **Python 3.x** installed on Windows.
 * **Standard Built-in Libraries:**
@@ -31,22 +30,19 @@ No external packages are required to run the script!
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/cache-cleaner.git](https://github.com/YOUR_USERNAME/cache-cleaner.git)
+   git clone [https://github.com/obadanaseer04-netizen/cache-cleaner.git](https://github.com/obadanaseer04-netizen/cache-cleaner.git)
    cd cache-cleaner
 
-   ## 🛠️ Required Libraries & Dependencies
+   ---
 
-This project uses **Python Standard Libraries** only. No external `pip` installations are required to run the source code:
+## 📦 Building Executable (.exe)
 
-* `tkinter` - For the graphical user interface (GUI)
-* `threading` & `queue` - For background execution without freezing the UI
-* `ctypes` - For requesting Windows UAC Administrator privileges
-* `os`, `sys`, `shutil`, `pathlib` - For file system management and path resolution
+If you want to build a standalone Windows executable (`.exe`):
 
----
+1. **Install PyInstaller:**
+   ```bash
+   pip install pyinstaller
 
-## 🚀 Usage Commands
 
-### Running the Python Script:
-```bash
-python cache_cleaner.py
+   
+   
