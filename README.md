@@ -33,3 +33,20 @@ No external packages are required to run the script!
    ```bash
    git clone [https://github.com/YOUR_USERNAME/cache-cleaner.git](https://github.com/YOUR_USERNAME/cache-cleaner.git)
    cd cache-cleaner
+
+   ## 🛠️ Required Libraries & Dependencies
+
+This project uses **Python Standard Libraries** only. No external `pip` installations are required to run the source code:
+
+* `tkinter` - For the graphical user interface (GUI)
+* `threading` & `queue` - For background execution without freezing the UI
+* `ctypes` - For requesting Windows UAC Administrator privileges
+* `os`, `sys`, `shutil`, `pathlib` - For file system management and path resolution
+
+---
+
+## 🚀 Usage Commands
+
+### Running the Python Script:
+```bash
+python cache_cleaner.py
